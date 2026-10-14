@@ -1,0 +1,10 @@
+description = "Conduz a entrevista de descoberta que transforma a ideia em decisões"
+prompt = """
+Execute o procedimento descrito no arquivo `prompts/brainstorm.md` deste repositório.
+
+Argumentos: {{args}}
+
+Antes de qualquer passo, leia `prompts/guardrails.md` e siga-o à risca:
+nunca escreva em `inputs/`, nunca invente dados, marque lacunas com [A CONFIRMAR]
+e trabalhe com um único projeto (slug) por vez.
+"""

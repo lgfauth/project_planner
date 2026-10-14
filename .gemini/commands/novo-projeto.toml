@@ -1,0 +1,10 @@
+description = "Cria a pasta do projeto em outputs/ e registra a ideia bruta no brief"
+prompt = """
+Execute o procedimento descrito no arquivo `prompts/novo-projeto.md` deste repositório.
+
+Argumentos: {{args}}
+
+Antes de qualquer passo, leia `prompts/guardrails.md` e siga-o à risca:
+nunca escreva em `inputs/`, nunca invente dados, marque lacunas com [A CONFIRMAR]
+e trabalhe com um único projeto (slug) por vez.
+"""

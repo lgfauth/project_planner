@@ -1,0 +1,10 @@
+description = "Gera ou atualiza os documentos de planejamento a partir dos templates"
+prompt = """
+Execute o procedimento descrito no arquivo `prompts/gerar-docs.md` deste repositório.
+
+Argumentos: {{args}}
+
+Antes de qualquer passo, leia `prompts/guardrails.md` e siga-o à risca:
+nunca escreva em `inputs/`, nunca invente dados, marque lacunas com [A CONFIRMAR]
+e trabalhe com um único projeto (slug) por vez.
+"""

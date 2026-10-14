@@ -1,0 +1,8 @@
+description = "Mostra o estado de todos os projetos em outputs/"
+prompt = """
+Execute o procedimento descrito no arquivo `prompts/status.md` deste repositório.
+
+Antes de qualquer passo, leia `prompts/guardrails.md` e siga-o à risca:
+nunca escreva em `inputs/`, nunca invente dados, marque lacunas com [A CONFIRMAR]
+e trabalhe com um único projeto (slug) por vez.
+"""
